@@ -1,0 +1,30 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teachers' Day Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <div class="card-content">
+      <h1>Happy Teachers' Day!</h1>
+      <p>To the guiding lights who inspire, nurture, and shape our future — thank you for your endless patience, wisdom, and kindness.  
+      You make learning a beautiful journey every single day.</p>
+      <button onclick="showMessage()">Click for a Surprise</button>
+      <div class="message" id="hiddenMessage">🌸 You are the reason knowledge blooms and dreams take flight. 🌸</div>
+    </div>
+  </div>
+
+  <script>
+    function showMessage() {
+      const msg = document.getElementById('hiddenMessage');
+      msg.style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+
